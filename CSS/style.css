@@ -8,7 +8,21 @@ div main {
   width: 100%;
   height: 700px; }
 
+<<<<<<< HEAD
 /* line 16, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+=======
+article {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+article hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+>>>>>>> 455d0f8d9b114ec50a2bdf6acc4ee19256f4e807
 .headerbackgrond {
   background-image: url(../Mini2/Udleverede%20billeder/navigation_background.png);
   box-shadow: 2px 4px 10px grey;
@@ -18,7 +32,15 @@ div main {
 #map {
   border: 3px solid white; }
 
+<<<<<<< HEAD
 /* line 25, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+=======
+.container #map {
+  height: 550px;
+  width: 100%;
+}
+
+>>>>>>> 455d0f8d9b114ec50a2bdf6acc4ee19256f4e807
 .slide {
   border: 3px solid rgba(141, 141, 141, 0.7); }
 
