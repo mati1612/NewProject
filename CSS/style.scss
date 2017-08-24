@@ -13,6 +13,17 @@ div main {
     height: 700px;
 }
 
+article{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    hr{
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+}
+
 .headerbackgrond {
     background-image: url(../Mini2/Udleverede%20billeder/navigation_background.png);
     @include boxshadow();
@@ -20,6 +31,11 @@ div main {
 
 #map {
     border: 3px solid white;
+}
+
+.container #map{
+    height: 550px;
+    width: 100%;
 }
 
 .slide {
@@ -34,19 +50,23 @@ div main {
     display: flex;
     justify-content: flex-end;
 }
+
 a{
     color: grey;
     font-weight: bold;
     transition: 0.3s;
+
     &:hover{
         color: lighten( grey, 10%);
         transition: 0.3s;
     }
 }
+
 .footerbg{
     background-color: lighten(grey, 35%);
     height: 130px;
 }
+
 footer{
     display: flex;
     justify-content: flex-end;

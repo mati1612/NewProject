@@ -8,6 +8,17 @@ div main {
   height: 700px;
 }
 
+article {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+article hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
 .headerbackgrond {
   background-image: url(../Mini2/Udleverede%20billeder/navigation_background.png);
   box-shadow: 2px 4px 10px grey;
@@ -16,6 +27,11 @@ div main {
 
 #map {
   border: 3px solid white;
+}
+
+.container #map {
+  height: 550px;
+  width: 100%;
 }
 
 .slide {
