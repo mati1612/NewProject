@@ -10,8 +10,22 @@ div main {
   box-shadow: 2px 4px 10px grey;
   border: 1px solid #4d4d4d; }
 
-/* line 16, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 17, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 #map {
-  flex-grow: 1; }
+  border: 3px solid white; }
+
+/* line 21, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+.slide {
+  border: 3px solid rgba(141, 141, 141, 0.7); }
+
+/* line 24, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+.main-footer-content {
+  width: 100%; }
+
+/* line 28, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+.main-footer-item {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
