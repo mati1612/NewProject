@@ -5,88 +5,82 @@
 /* line 10, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 div main {
   background-image: url(../Mini2/Udleverede%20billeder/main_background.png);
-  width: 100%;
-  height: 700px; }
+  width: 100%; }
 
-<<<<<<< HEAD
-/* line 16, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
-=======
+/* line 15, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 article {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
-}
+  background-color: rgba(255, 255, 255, 0.7); }
+  /* line 18, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+  article hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
 
-article hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
-}
-
->>>>>>> 455d0f8d9b114ec50a2bdf6acc4ee19256f4e807
+/* line 25, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .headerbackgrond {
   background-image: url(../Mini2/Udleverede%20billeder/navigation_background.png);
   box-shadow: 2px 4px 10px grey;
-  border: 1px solid #4d4d4d; }
+  border: 1px solid #4d4d4d;
+  background-size: contain;
+  background-position: center; }
 
-/* line 21, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 32, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 #map {
   border: 3px solid white; }
 
-<<<<<<< HEAD
-/* line 25, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
-=======
+/* line 36, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .container #map {
   height: 550px;
-  width: 100%;
-}
+  width: 100%; }
 
->>>>>>> 455d0f8d9b114ec50a2bdf6acc4ee19256f4e807
+/* line 41, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .slide {
   border: 3px solid rgba(141, 141, 141, 0.7); }
 
-/* line 29, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 45, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .main-footer-content {
   width: 100%; }
 
-/* line 33, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 49, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .main-footer-item {
-  width: 33%;
+  height: 180px !important;
   display: flex;
   justify-content: flex-end; }
 
-/* line 39, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 55, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 a {
   color: grey;
   font-weight: bold;
   transition: 0.3s; }
-  /* line 43, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+  /* line 59, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
   a:hover {
     color: #9a9a9a;
     transition: 0.3s; }
 
-/* line 49, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 65, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .footerbg {
   background-color: #d9d9d9;
   height: 130px; }
 
-/* line 54, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 70, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 footer {
   display: flex;
   justify-content: flex-end;
   justify-content: space-between; }
 
-/* line 60, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 76, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .BSC-title {
   text-align: center; }
 
-/* line 64, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 80, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 h5 {
   font-size: 1.28571429em;
   font-weight: 700;
   line-height: 1.2857em;
   margin: 0; }
 
-/* line 71, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 87, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card {
   font-size: 1em;
   overflow: hidden;
@@ -95,7 +89,7 @@ h5 {
   border-radius: .28571429rem;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; }
 
-/* line 80, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 96, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-block {
   font-size: 1em;
   position: relative;
@@ -105,25 +99,25 @@ h5 {
   border-top: 1px solid rgba(34, 36, 38, 0.1);
   box-shadow: none; }
 
-/* line 90, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 106, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-img-top {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 96, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 112, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-title {
   font-size: 1.28571429em;
   font-weight: 700;
   line-height: 1.2857em; }
 
-/* line 102, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 118, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-text {
   clear: both;
   margin-top: .5em;
   color: rgba(0, 0, 0, 0.68); }
 
-/* line 108, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 124, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-footer {
   font-size: 1em;
   position: static;
@@ -135,11 +129,11 @@ h5 {
   border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
   background: #fff; }
 
-/* line 120, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 136, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .card-inverse .btn {
   border: 1px solid rgba(0, 0, 0, 0.05); }
 
-/* line 124, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 140, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .profile {
   position: absolute;
   top: -14px;
@@ -152,7 +146,7 @@ h5 {
   border: 1px solid #fff;
   border-radius: 50%; }
 
-/* line 137, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 153, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .profile-avatar {
   display: block;
   width: 100%;
@@ -160,33 +154,33 @@ h5 {
   margin-top: 5px;
   border-radius: 50%; }
 
-/* line 145, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 161, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .profile-inline {
   position: relative;
   top: 0;
   display: inline-block; }
 
-/* line 151, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 167, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .profile-inline ~ .card-title {
   display: inline-block;
   margin-left: 4px;
   vertical-align: top; }
 
-/* line 157, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 173, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .text-bold {
   font-weight: 700; }
 
-/* line 161, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 177, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .meta {
   font-size: 1em;
   color: rgba(0, 0, 0, 0.4); }
 
-/* line 166, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 182, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .meta a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.4); }
 
-/* line 171, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+/* line 187, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .meta a:hover {
   color: rgba(0, 0, 0, 0.87); }
 
