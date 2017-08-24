@@ -1,31 +1,55 @@
-/* line 6, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
+.container-fluid {
+  padding: 0;
+}
+
 div main {
   background-image: url(../Mini2/Udleverede%20billeder/main_background.png);
   width: 100%;
-  height: 900px; }
+  height: 700px;
+}
 
-/* line 12, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .headerbackgrond {
   background-image: url(../Mini2/Udleverede%20billeder/navigation_background.png);
   box-shadow: 2px 4px 10px grey;
-  border: 1px solid #4d4d4d; }
+  border: 1px solid #4d4d4d;
+}
 
-/* line 17, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 #map {
-  border: 3px solid white; }
+  border: 3px solid white;
+}
 
-/* line 21, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .slide {
-  border: 3px solid rgba(141, 141, 141, 0.7); }
+  border: 3px solid rgba(141, 141, 141, 0.7);
+}
 
-/* line 24, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .main-footer-content {
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 28, C:/wamp64/www/github2/githubOpg/NewProject/CSS/style.scss */
 .main-footer-item {
   width: 33%;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
-/*# sourceMappingURL=style.css.map */
+a {
+  color: grey;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #9a9a9a;
+  transition: 0.3s;
+}
+
+.footerbg {
+  background-color: #d9d9d9;
+  height: 130px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
